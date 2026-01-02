@@ -209,3 +209,128 @@
      font-size: 16px;
      color: black;
  }
+ /* Learning Paths */
+ .learning-paths {
+     margin-bottom: 60px;
+     background: linear-gradient(135deg, #a9fac2, #f0fdfa);
+     padding: 40px 20px;
+     border-radius: 16px;
+     border: 1px solid #c6f9de;
+ }
+
+ .learning-paths h2 {
+     font-size: 28px;
+     color: #1e293b;
+     text-align: center;
+     margin-bottom: 16px;
+ }
+
+ .learning-paths p {
+     font-size: 16px;
+     color: #475569;
+     text-align: center;
+     max-width: 500px;
+     margin: 0 auto 32px;
+ }
+
+ .paths-grid {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 20px;
+ }
+
+ @media (min-width: 768px) {
+     .paths-grid {
+         grid-template-columns: repeat(3, 1fr);
+     }
+ }
+
+ .path-card {
+     padding: 24px;
+     border-radius: 16px;
+     border: 2px solid;
+     text-align: center;
+     transition: box-shadow 0.3s;
+ }
+
+ .path-card:hover {
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ .path-card h4 {
+     font-size: 20px;
+     color: #1e293b;
+     margin-bottom: 12px;
+ }
+
+ .path-card .info {
+     display: flex;
+     justify-content: center;
+     gap: 16px;
+     margin-bottom: 12px;
+     font-size: 14px;
+     color: #475569;
+ }
+
+ .path-card p {
+     font-size: 14px;
+     color: #475569;
+ }
+
+ /* Why Choose Us */
+ .why-choose {
+     background: linear-gradient(135deg, #064e3b 0%, #134e4a 60%, #0f172a 100%);
+     padding: 32px;
+     border-radius: 16px;
+     border: 1px solid #e5e7eb;
+ }
+
+ .why-choose h2 {
+     font-size: 28px;
+     color: #64e6a9;
+     text-align: center;
+     margin-bottom: 32px;
+ }
+
+ .why-choose-grid {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 20px;
+ }
+
+ @media (min-width: 768px) {
+     .why-choose-grid {
+         grid-template-columns: repeat(2, 1fr);
+     }
+ }
+
+ @media (min-width: 1024px) {
+     .why-choose-grid {
+         grid-template-columns: repeat(4, 1fr);
+     }
+ }
+
+ .why-choose-item {
+     text-align: center;
+ }
+
+ .why-choose-item .icon {
+     width: 64px;
+     height: 64px;
+     border-radius: 9999px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto 16px;
+ }
+
+ .why-choose-item h4 {
+     font-size: 18px;
+     color: #ffffff;
+     margin-bottom: 8px;
+ }
+
+ .why-choose-item p {
+     font-size: 14px;
+     color: #69e7bd;
+ }
